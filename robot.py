@@ -22,6 +22,7 @@ WHEELBASE_M = 0.577342
 TRACKWIDTH_M = 0.577342
 
 
+
 PIGEON_ID = 14
 
 # Replace None with your real CAN IDs and offsets.
@@ -36,7 +37,7 @@ MODULE_CONFIG = {
         "encoder_sign": 1,
     },
     "FR": {
-        "drive": 5, "steer": 1,
+        "drive": 5, "steer": 13,
         "encoder": 9, "offset_rot": 337.351,
         "drive_sign": 1, "steer_sign": 1,
         "encoder_sign": 1,
